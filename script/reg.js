@@ -39,6 +39,6 @@ myForm.addEventListener("submit", function (e) {
   if (!isValid) {
     console.log("Error in connection");
   } else {
-    window.location.href = "index.html";
+    window.location.href = "home.html";
   }
 });
