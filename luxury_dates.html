@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlyes/dates.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html"><li>Peachy Riders</li></a>
+    </nav>
+    <h1 class="rental_days">Rental days</h1>
+    <div class="case">
+        <div class="dates_case">
+            <p>Our rental service is available every day of the week, with the exception of Sundays, allowing you to conveniently plan your trips or errands. We understand that your schedule doesn’t stop for holidays, which is why we’re open and fully operational even on public holidays, ensuring you have access to our vehicles when you need them most. Whether it’s a busy weekday or a special occasion, we strive to provide flexible and reliable service to meet your needs.</p>
+        </div>
+    </div>
+
+    <h1 class="rental_days">Please Fill the following Form.</h1>
+    <form action="" class="myForm" id="myForm">
+        <div>
+            <label>
+                Pick-up date: <br>
+                <input type="date" id="pickup">
+            </label>
+            <p id="pickup_err" class="err"></p>
+        </div>
+        <div>
+            <label>
+                Return date: <br>
+                <input type="date" id="return">
+            </label>
+            <p id="return_err" class="err"></p>
+        </div>
+        <div>
+            <label>
+                Indicate if any additional services are needed: <br>
+                <input type="text" id="additional" placeholder="Enter any additional services">
+            </label>
+            <p id="additional_err" class="err"></p>
+        </div>
+        <button class="submit" id="submit">Submit</button>
+    </form>
+    
+    <div class="footer">
+        <p>&copy;2024 Peachy Rides. All rights reserved. | Privacy Policy | Terms & Conditions | Contact: hello@peachyrides.com</p>
+    </div>
+
+    <script src="script/luxury_dates.js"></script>
+</body>
+</html>
